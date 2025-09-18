@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+$ash-gray: #cad2c5ff;
+$cambridge-blue: #84a98cff;
+$hookers-green: #52796fff;
+$dark-slate-gray: #354f52ff;
+$charcoal: #2f3e46ff;
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.mainclass {
+    background-color: $charcoal;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h1 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: $cambridge-blue;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: $ash-gray;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 24px;
+    color: $ash-gray;
+    text-align: center;
+}
+
+a {
+    color: $ash-gray;
+    text-decoration: none;
+    font-weight: bold;
+}
