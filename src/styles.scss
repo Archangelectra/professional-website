@@ -4,13 +4,17 @@ $hookers-green: #52796fff;
 $dark-slate-gray: #354f52ff;
 $charcoal: #2f3e46ff;
 
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 
 .mainclass {
     background-color: $charcoal;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 15px;
     color: white;
     text-align: justify;
@@ -19,7 +23,7 @@ body {
 }
 
 h1 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 48px;
     font-weight: bold;
     color: $cambridge-blue;
@@ -27,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 32px;
     font-weight: bold;
     color: $ash-gray;
@@ -35,7 +39,7 @@ h2 {
 }
 
 h3 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 24px;
     color: $ash-gray;
     text-align: center;
