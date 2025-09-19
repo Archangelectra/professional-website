@@ -1,0 +1,29 @@
+$ash-gray: #cad2c5ff;
+$cambridge-blue: #84a98cff;
+$hookers-green: #52796fff;
+$dark-slate-gray: #354f52ff;
+$charcoal: #2f3e46ff;
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../src/assets/fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+p {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: $ash-gray;
+}
+
+h1 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:48px;
+    text-align: center;
+    color: $ash-gray;
+}
+
+.mainerror {
+    background-color: $charcoal;
+}
